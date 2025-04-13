@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+// Class to calculate the multiplication table of a given number from 6 to 9
+class MultiplicationNumber {
+    public static void main(String[] args) {
+        // Create Scanner object to take user input
+        Scanner input = new Scanner(System.in);
+        
+        // Prompt user to enter a number
+        System.out.print("Enter a number: ");
+        int number = input.nextInt();
+        
+        // Define an integer array to store multiplication results
+        int[] table = new int[4];
+        
+        // Loop to calculate multiplication table from 6 to 9
+        for (int i = 6; i <= 9; i++) {
+            table[i - 6] = number * i; // Store the result in the array
+            
+            // Print the multiplication result
+            System.out.println(number + " * " + i + " = " + table[i - 6]);
+        }
+    }
+}
