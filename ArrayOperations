@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class ArrayOperations{
+	public static void main(String[]args){
+		Scanner input=new Scanner(System.in);
+		System.out.println("Enter 5 numbers.");
+		int[] numbers=new int[5];
+		for(int i=0;i<5;i++){
+			System.out.println("Enter numbers "+(i+1)+" :");
+			numbers[i]=input.nextInt();
+		}
+		for(int i=0;i<5;i++){
+			int num=numbers[i];
+			if(num>0){
+				System.out.println("Number "+num+" is positive");
+				if(num%2==0){
+					System.out.println("Number "+num+" is even");
+				}
+				else{
+					System.out.println("Number "+num+" is odd");
+				}
+			}
+			else if(num<0){
+				System.out.println("Number "+num+" is negative");
+			}
+			else{
+				System.out.println("Number is zero");
+			}
+		}
+		int num1=numbers[0];
+		int num2=numbers[4];
+		System.out.println("Comparing the first number "+num1+ " and last number "+num2+" of the array");
+		
+		if(num1==num2){
+			System.out.println("The number one "+num1+" is equal to number two "+num2);
+		}
+		else if(num1>num2){
+			System.out.println("The number one "+num1+" is greater than number two "+num2);
+		}
+		else if(num1<num2){
+			System.out.println("The number one "+num1+" is less than number two "+num2);
+		}
+	}
+}
