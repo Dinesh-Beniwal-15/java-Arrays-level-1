@@ -1,0 +1,40 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+class FactorsArray {
+    public static void main(String[] args) {
+        // Create Scanner object for user input
+        Scanner input = new Scanner(System.in);
+        
+        // Take input for a number
+        System.out.print("Enter a number: ");
+        int number = input.nextInt();
+        
+        // Initialize maxFactor, factors array, and index variable
+        int maxFactor = 10;
+        int[] factors = new int[maxFactor];
+        int index = 0;
+        
+        // Find factors of the number
+        for (int i = 1; i <= number; i++) {
+            if (number % i == 0) {
+                // If the array is full, expand its size
+                if (index == maxFactor) {
+                    maxFactor *= 2; // Double the size
+                    factors = Arrays.copyOf(factors, maxFactor); // Copy elements to new array
+                }
+                factors[index++] = i; // Store the factor
+            }
+        }
+        
+        // Display the factors of the number
+        System.out.print("Factors of " + number + " are: ");
+        for (int i = 0; i < index; i++) {
+            System.out.print(factors[i] + " ");
+        }
+        System.out.println(); // Move to next line
+        
+        // Close the Scanner
+        input.close();
+    }
+}
