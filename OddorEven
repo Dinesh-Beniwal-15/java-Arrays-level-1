@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+class OddorEven {
+    public static void main(String[] args) {
+        // Create Scanner object to take user input
+        Scanner input = new Scanner(System.in);
+
+        // Get input from the user
+        System.out.print("Enter a number: ");
+        int number = input.nextInt();
+
+        // Check if input is a natural number (positive)
+        if (number > 0) {
+            // Create arrays for even and odd numbers
+            int[] even = new int[number / 2 + 1]; // Max possible even numbers
+            int[] odd = new int[number / 2 + 1];  // Max possible odd numbers
+
+            // Initialize index counters
+            int evenIndex = 0, oddIndex = 0;
+
+            // Loop through numbers from 1 to user input
+            for (int i = 1; i <= number; i++) {
+                if (i % 2 == 0) {
+                    even[evenIndex++] = i; // Store even number
+                } else {
+                    odd[oddIndex++] = i; // Store odd number
+                }
+            }
+
+            // Print the even numbers array
+            System.out.println("Even numbers are:");
+            for (int i = 0; i < evenIndex; i++) {
+                System.out.print(even[i] + " ");
+            }
+            System.out.println(); // Move to next line
+
+            // Print the odd numbers array
+            System.out.println("Odd numbers are:");
+            for (int i = 0; i < oddIndex; i++) {
+                System.out.print(odd[i] + " ");
+            }
+            System.out.println(); // Move to next line
+        } else {
+            // Error message if input is not a natural number
+            System.out.print("Error: Please enter a natural number greater than 0.");
+        }
+
+        // Close Scanner
+        input.close();
+    }
+}
