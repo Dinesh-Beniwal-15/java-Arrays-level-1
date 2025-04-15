@@ -4,7 +4,7 @@ class MultiplicationTable {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create Scanner object for user input 
         
-        System.out.print("Enter number:"); // Prompt user for input
+        System.out.print("Enter number:"); // Prompt user for input 
         int number = input.nextInt(); // Read the number from user input
          
         int[] table = new int[10]; // Declare an array to store multiplication results
