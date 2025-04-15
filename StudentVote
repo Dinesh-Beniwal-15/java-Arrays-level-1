@@ -1,0 +1,34 @@
+import java.util.Scanner; // Import the Scanner class to take user input
+
+class StudentVote {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); // Create a Scanner object for user input
+        System.out.println("Enter Ages of the 10 students:");
+
+        int[] ages = new int[10]; // Create an array to store ages of 10 students
+
+        // Loop to take age input for 10 students
+        for (int i = 0; i < 10; i++) {
+            System.out.print("Enter the age of student " + (i + 1) + " : ");
+            ages[i] = input.nextInt(); // Store the input age in the array
+        }
+
+        // Loop to check voting eligibility based on age
+        for (int i = 0; i < ages.length; i++) {
+            int age = ages[i]; // Retrieve age from the array
+
+            if (age < 0) { 
+                // If the entered age is negative, it's invalid
+                System.out.println("Invalid age: " + age);
+            } else if (age >= 18) { 
+                // If age is 18 or above, the student can vote
+                System.out.println("The student with the age " + age + " can vote.");
+            } else { 
+                // If age is below 18, the student cannot vote
+                System.out.println("The student with the age " + age + " cannot vote.");
+            }
+        }
+
+        input.close(); // Close the Scanner object to prevent resource leak
+    }
+}
