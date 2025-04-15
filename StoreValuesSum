@@ -1,0 +1,36 @@
+import java.util.Scanner; // Import Scanner class for user input
+
+class StoreValuesSum {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); 
+        double[] numbers = new double[10]; // Array to store up to 10 numbers
+        double total = 0.0; // Variable to store total sum
+        int index = 0; // Index should be of type int
+
+        while (true) {
+            System.out.print("Enter number (0 or negative to stop): ");
+            double num = input.nextDouble();
+
+            if (num <= 0) {
+                break;
+            }
+            
+            numbers[index] = num; // Fixing the variable name
+            index++;
+
+            if (index == 10) { // Break if array limit is reached
+                break;
+            }
+        }
+
+        // Display entered numbers and calculate the total sum
+        System.out.print("\nNumbers entered: ");
+        for (int i = 0; i < index; i++) {
+            System.out.print(numbers[i] + " ");
+            total += numbers[i];
+        }
+
+        System.out.println("\nTotal sum: " + total);
+        input.close(); // Closing scanner to avoid memory leak
+    }
+}
