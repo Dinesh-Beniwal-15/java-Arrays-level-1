@@ -8,7 +8,7 @@ class FactorsArray {
         
         // Take input for a number
         System.out.print("Enter a number: "); 
-        int number = input.nextInt(); 
+        int number = input.nextInt();  
          
         // Initialize maxFactor, factors array, and index variable
         int maxFactor = 10;
