@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
+ 
 class FactorsArray {
     public static void main(String[] args) { 
         // Create Scanner object for user input
