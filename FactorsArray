@@ -12,7 +12,7 @@ class FactorsArray {
          
         // Initialize maxFactor, factors array, and index variable
         int maxFactor = 10; 
-        int[] factors = new int[maxFactor];
+        int[] factors = new int[maxFactor]; 
         int index = 0;
         
         // Find factors of the number
