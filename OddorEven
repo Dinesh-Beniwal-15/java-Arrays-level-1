@@ -9,7 +9,7 @@ class OddorEven {
         System.out.print("Enter a number: "); 
         int number = input.nextInt();  
   
-        // Check if input is a natural number (positive)
+        // Check if input is a natural number (positive) 
         if (number > 0) {
             // Create arrays for even and odd numbers
             int[] even = new int[number / 2 + 1]; // Max possible even numbers
