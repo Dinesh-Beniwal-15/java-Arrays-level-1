@@ -6,7 +6,7 @@ class OddorEven {
         Scanner input = new Scanner(System.in);
  
         // Get input from the user
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a number: "); 
         int number = input.nextInt(); 
 
         // Check if input is a natural number (positive)
