@@ -12,7 +12,7 @@ class TwoDToOneDArray {
  
         // Create a 2D array (Matrix)
         int[][] TwoDArray = new int[rows][columns]; 
- 
+  
         // Taking input for the 2D array 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
