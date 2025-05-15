@@ -15,7 +15,7 @@ class StoreValuesSum {
                 break;
             }
             
-            numbers[index] = num; // Fixing the variable name
+            numbers[index] = num; // Fixing the variable name 
             index++;
 
             if (index == 10) { // Break if array limit is reached
