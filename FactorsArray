@@ -7,7 +7,7 @@ class FactorsArray {
         Scanner input = new Scanner(System.in);  
         
         // Take input for a number 
-        System.out.print("Enter a number: ");  
+        System.out.print("Enter a number: ");   
         int number = input.nextInt();   
           
         // Initialize maxFactor, factors array, and index variable  
