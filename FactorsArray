@@ -10,7 +10,7 @@ class FactorsArray {
         System.out.print("Enter a number: ");  
         int number = input.nextInt();   
           
-        // Initialize maxFactor, factors array, and index variable 
+        // Initialize maxFactor, factors array, and index variable  
         int maxFactor = 10; 
         int[] factors = new int[maxFactor];  
         int index = 0;
