@@ -8,7 +8,7 @@ class TwoDToOneDArray {
         System.out.print("Enter no. of rows: "); 
         int rows = input.nextInt();     
         System.out.print("Enter no. of columns: ");   
-        int columns = input.nextInt();
+        int columns = input.nextInt(); 
    
         // Create a 2D array (Matrix)
         int[][] TwoDArray = new int[rows][columns]; 
