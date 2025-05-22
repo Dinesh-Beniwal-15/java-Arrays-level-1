@@ -4,7 +4,7 @@ class TwoDToOneDArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create Scanner object 
         
-        // Take user input for the number of rows and columns
+        // Take user input for the number of rows and columns 
         System.out.print("Enter no. of rows: "); 
         int rows = input.nextInt();   
         System.out.print("Enter no. of columns: ");  
