@@ -7,7 +7,7 @@ class MultiplicationTable {
         System.out.print("Enter number:"); // Prompt user for input 
         int number = input.nextInt(); // Read the number from user input
           
-        int[] table = new int[10]; // Declare an array to store multiplication results  
+        int[] table = new int[10]; // Declare an array to store multiplication results   
           
         // Loop to calculate multiplication table  
         for (int i = 0; i < 10; i++) {
