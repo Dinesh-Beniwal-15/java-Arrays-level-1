@@ -8,7 +8,7 @@ class MultiplicationNumber {
         
         // Prompt user to enter a number
         System.out.print("Enter a number: ");
-        int number = input.nextInt();  
+        int number = input.nextInt();   
           
         // Define an integer array to store multiplication results 
         int[] table = new int[4];  
