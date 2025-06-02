@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class FizzBuzz {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // Scanner for user input
+        Scanner input = new Scanner(System.in); // Scanner for user input 
 
         // Get the number from the user
         System.out.print("Enter a positive integer: ");  
