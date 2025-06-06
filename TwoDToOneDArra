@@ -1,6 +1,6 @@
 import java.util.Scanner; // Import Scanner class for user input
  
-class TwoDToOneDArray {
+class TwoDToOneDArray { 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create Scanner object 
         
