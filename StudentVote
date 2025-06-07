@@ -4,7 +4,7 @@ class StudentVote {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create a Scanner object for user input
         System.out.println("Enter Ages of the 10 students:");   
- 
+  
         int[] ages = new int[10]; // Create an array to store ages of 10  students  
   
         // Loop to take age input for 10 students
