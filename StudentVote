@@ -1,4 +1,4 @@
-import java.util.Scanner; // Import the Scanner class to take user input
+import java.util.Scanner; // Import the Scanner class to take user input 
 
 class StudentVote {
     public static void main(String[] args) {
