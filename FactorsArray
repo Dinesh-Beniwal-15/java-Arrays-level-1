@@ -33,7 +33,7 @@ class FactorsArray {
             System.out.print(factors[i] + " ");
         }
         System.out.println(); // Move to next line
-        
+         
         // Close the Scanner
         input.close();
     }
