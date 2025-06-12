@@ -25,7 +25,7 @@ class FactorsArray {
                 }
                 factors[index++] = i; // Store the factor
             }
-        }
+        } 
         
         // Display the factors of the number
         System.out.print("Factors of " + number + " are: ");
