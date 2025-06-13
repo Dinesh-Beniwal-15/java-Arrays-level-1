@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class OddorEven {
     public static void main(String[] args) {
-        // Create Scanner object to take user input
+        // Create Scanner object to take user input 
         Scanner input = new Scanner(System.in);  
    
         // Get input from the user
