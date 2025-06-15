@@ -6,7 +6,7 @@ class MeanHeightOfFootballTeam {
         // Create Scanner object to take user input
         Scanner input = new Scanner(System.in);  
             
-        // Define a double array to store heights of 11 players  
+        // Define a double array to store heights of 11 players   
         double[] heights = new double[11];
         double sum = 0; // Variable to store the sum of heights 
         
