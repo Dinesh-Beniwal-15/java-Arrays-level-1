@@ -9,7 +9,7 @@ class StoreValuesSum {
 
         while (true) { 
             System.out.print("Enter number (0 or negative to stop): ");
-            double num = input.nextDouble(); 
+            double num = input.nextDouble();  
    
             if (num <= 0) { 
                 break;
