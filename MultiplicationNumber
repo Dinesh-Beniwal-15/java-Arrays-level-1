@@ -20,5 +20,5 @@ class MultiplicationNumber {
             // Print the multiplication result
             System.out.println(number + " * " + i + " = " + table[i - 6]);
         }
-    }
+    } 
 }
