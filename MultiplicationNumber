@@ -6,7 +6,7 @@ class MultiplicationNumber {
         // Create Scanner object to take user input
         Scanner input = new Scanner(System.in);   
         
-        // Prompt user to enter a number
+        // Prompt user to enter a number 
         System.out.print("Enter a number: "); 
         int number = input.nextInt();       
             
