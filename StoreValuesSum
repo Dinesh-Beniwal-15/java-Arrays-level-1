@@ -8,7 +8,7 @@ class StoreValuesSum {
         int index = 0; // Index should be of type int
  
         while (true) { 
-            System.out.print("Enter number (0 or negative to stop): ");  
+            System.out.print("Enter number (0 or negative to stop): ");   
             double num = input.nextDouble();   
       
             if (num <= 0) {  
