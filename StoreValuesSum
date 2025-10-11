@@ -12,7 +12,7 @@ class StoreValuesSum {
             double num = input.nextDouble();   
       
             if (num <= 0) { 
-                break;
+                break; 
             }
             
             numbers[index] = num; // Fixing the variable name 
