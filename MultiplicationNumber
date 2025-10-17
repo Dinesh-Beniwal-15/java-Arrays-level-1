@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // Class to calculate the multiplication table of a given number from 6 to 9
-class MultiplicationNumber { 
+class MultiplicationNumber {  
     public static void main(String[] args) {
         // Create Scanner object to take user input 
         Scanner input = new Scanner(System.in);   
