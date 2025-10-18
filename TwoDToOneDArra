@@ -6,7 +6,7 @@ class TwoDToOneDArray {
          
         // Take user input for the number of rows and columns    
         System.out.print("Enter no. of rows: ");     
-        int rows = input.nextInt();     
+        int rows = input.nextInt();      
         System.out.print("Enter no. of columns: ");         
         int columns = input.nextInt();      
       
