@@ -23,7 +23,7 @@ class OddorEven {
                 if (i % 2 == 0) {
                     even[evenIndex++] = i; // Store even number
                 } else {
-                    odd[oddIndex++] = i; // Store odd number
+                    odd[oddIndex++] = i; // Store odd number 
                 }
             }
 
