@@ -15,7 +15,7 @@ class OddorEven {
             int[] even = new int[number / 2 + 1]; // Max possible even numbers  
             int[] odd = new int[number / 2 + 1];  // Max possible odd numbers
 
-            // Initialize index counters
+             // Initialize index counters
             int evenIndex = 0, oddIndex = 0;
 
             // Loop through numbers from 1 to user input
