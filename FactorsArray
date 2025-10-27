@@ -15,7 +15,7 @@ class FactorsArray {
         int[] factors = new int[maxFactor];   
         int index = 0;
         
-        // Find factors of the number 
+        // Find factors of the number  
         for (int i = 1; i <= number; i++) {
             if (number % i == 0) {
                 // If the array is full, expand its size
