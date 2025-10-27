@@ -5,7 +5,7 @@ class FactorsArray {
     public static void main(String[] args) { 
         // Create Scanner object for user input 
         Scanner input = new Scanner(System.in);   
-        
+         
         // Take input for a number  
         System.out.print("Enter a number: ");      
         int number = input.nextInt();   
