@@ -7,7 +7,7 @@ class StoreValuesSum {
         double total = 0.0; // Variable to store total sum 
         int index = 0; // Index should be of type int
  
-        while (true) {  
+        while (true) {   
             System.out.print("Enter number (0 or negative to stop): ");    
             double num = input.nextDouble();    
       
