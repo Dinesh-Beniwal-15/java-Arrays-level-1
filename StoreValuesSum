@@ -14,7 +14,7 @@ class StoreValuesSum {
             if (num <= 0) {    
                 break; 
             }
-            
+             
             numbers[index] = num; // Fixing the variable name 
             index++;
 
