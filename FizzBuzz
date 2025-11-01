@@ -24,7 +24,7 @@ class FizzBuzz {
                     results[i] = String.valueOf(i); // Store the number as a string
                 }
             }
-
+ 
             // Print the results in the required format
             for (int i = 0; i <= number; i++) {
                 System.out.println("Position " + i + " = " + results[i]);
