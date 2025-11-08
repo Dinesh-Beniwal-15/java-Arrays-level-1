@@ -11,7 +11,7 @@ class ArrayOperations{
 		for(int i=0;i<5;i++){      
 			int num=numbers[i];        
 			if(num>0){ 
-				System.out.println("Number "+num+" is positive"); 
+				System.out.println("Number "+num+" is positive");  
 				if(num%2==0){  
 					System.out.println("Number "+num+" is even"); 
 				} 
