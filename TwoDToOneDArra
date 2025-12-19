@@ -10,7 +10,7 @@ class TwoDToOneDArray {
         System.out.print("Enter no. of columns: ");          
         int columns = input.nextInt();      
        
-        // Create a 2D array (Matrix)  
+        // Create a 2D array (Matrix)   
         int[][] TwoDArray = new int[rows][columns];   
     
         // Taking input for the 2D array 
