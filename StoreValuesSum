@@ -11,7 +11,7 @@ class StoreValuesSum {
             System.out.print("Enter number (0 or negative to stop): ");     
             double num = input.nextDouble();       
        
-            if (num <= 0) {    
+            if (num <= 0) {     
                 break;  
             }
              
