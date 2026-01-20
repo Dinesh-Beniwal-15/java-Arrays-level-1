@@ -12,7 +12,7 @@ class ArrayOperations{
 			int num=numbers[i];          
 			if(num>0){ 
 				System.out.println("Number "+num+" is positive");    
-				if(num%2==0){  
+				if(num%2==0){   
 					System.out.println("Number "+num+" is even"); 
 				} 
 				else{ 
