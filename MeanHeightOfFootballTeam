@@ -23,7 +23,7 @@ class MeanHeightOfFootballTeam {
         // Print the mean height of the football team
         System.out.print("Mean height of the football team is: " + meanheight);
         
-        // Close the Scanner object
+        // Close the Scanner object 
         input.close();
     }
 }
