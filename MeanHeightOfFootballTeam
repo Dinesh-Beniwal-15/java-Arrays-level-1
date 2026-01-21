@@ -19,7 +19,7 @@ class MeanHeightOfFootballTeam {
         
         // Calculate mean height using the formula: mean = sum / number of elements
         double meanheight = sum / 11.0;
-        
+         
         // Print the mean height of the football team
         System.out.print("Mean height of the football team is: " + meanheight);
         
