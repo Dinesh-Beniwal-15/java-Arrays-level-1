@@ -15,7 +15,7 @@ class MeanHeightOfFootballTeam {
             System.out.print("Enter height of player " + (i + 1) + ": "); // Prompt user for input
             heights[i] = input.nextDouble(); // Store user input in the array
             sum = sum + heights[i]; // Add each height to the sum
-        }
+        } 
         
         // Calculate mean height using the formula: mean = sum / number of elements
         double meanheight = sum / 11.0;
