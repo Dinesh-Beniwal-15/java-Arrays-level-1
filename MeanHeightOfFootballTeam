@@ -4,7 +4,7 @@ import java.util.Scanner;
 class MeanHeightOfFootballTeam {
     public static void main(String[] args) {
         // Create Scanner object to take user input
-        Scanner input = new Scanner(System.in);   
+        Scanner input = new Scanner(System.in);    
                
         // Define a double array to store heights of 11 players    
         double[] heights = new double[11]; 
