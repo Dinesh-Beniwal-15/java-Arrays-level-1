@@ -12,7 +12,7 @@ class MeanHeightOfFootballTeam {
          
         // Loop to get height inputs from the user     
         for (int i = 0; i < 11; i++) {
-            System.out.print("Enter height of player " + (i + 1) + ": "); // Prompt user for input
+            System.out.print("Enter height of player " + (i + 1) + ": "); // Prompt user for input 
             heights[i] = input.nextDouble(); // Store user input in the array
             sum = sum + heights[i]; // Add each height to the sum
         } 
