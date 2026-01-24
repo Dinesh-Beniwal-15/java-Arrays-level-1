@@ -20,7 +20,7 @@ class StudentVote {
             if (age < 0) { 
                 // If the entered age is negative, it's invalid
                 System.out.println("Invalid age: " + age);
-            } else if (age >= 18) { 
+            } else if (age >= 18) {  
                 // If age is 18 or above, the student can vote
                 System.out.println("The student with the age " + age + " can vote.");
             } else { 
