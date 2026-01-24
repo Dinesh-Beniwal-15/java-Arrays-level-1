@@ -13,7 +13,7 @@ class StudentVote {
             ages[i] = input.nextInt(); // Store the input age in the array     
         }     
  
-        // Loop to check voting eligibility based on age   
+        // Loop to check voting eligibility based on age    
         for (int i = 0; i < ages.length; i++) {  
             int age = ages[i]; // Retrieve age from the array
 
