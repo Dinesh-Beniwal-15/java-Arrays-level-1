@@ -10,7 +10,7 @@ class MultiplicationNumber {
         System.out.print("Enter a number: ");   
         int number = input.nextInt();          
              
-        // Define an integer array to store multiplication results  
+        // Define an integer array to store multiplication results   
         int[] table = new int[4];    
           
         // Loop to calculate multiplication table from 6 to 9
