@@ -13,7 +13,7 @@ class OddorEven {
         if (number > 0) { 
             // Create arrays for even and odd numbers  
             int[] even = new int[number / 2 + 1]; // Max possible even numbers   
-            int[] odd = new int[number / 2 + 1];  // Max possible odd numbers
+            int[] odd = new int[number / 2 + 1];  // Max possible odd numbers 
 
              // Initialize index counters
             int evenIndex = 0, oddIndex = 0;
