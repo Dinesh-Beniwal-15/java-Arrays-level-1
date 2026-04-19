@@ -21,7 +21,7 @@ class FizzBuzz {
                 } else if (i % 5 == 0) {
                     results[i] = "Buzz"; // Multiples of 5
                 } else {
-                    results[i] = String.valueOf(i); // Store the number as a string
+                    results[i] = String.valueOf(i); // Store the number as a string 
                 }
             }
  
