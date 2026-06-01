@@ -15,7 +15,7 @@ class FizzBuzz {
             // Loop from 0 to the given number       
             for (int i = 0; i <= number; i++) { 
                 if (i % 3 == 0 && i % 5 == 0) { 
-                    results[i] = "FizzBuzz"; // Multiples of both 3 and 5
+                    results[i] = "FizzBuzz"; // Multiples of both 3 and 5 
                 } else if (i % 3 == 0) {
                     results[i] = "Fizz"; // Multiples of 3
                 } else if (i % 5 == 0) {
