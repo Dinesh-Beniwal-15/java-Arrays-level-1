@@ -14,7 +14,7 @@ class TwoDToOneDArray {
         int[][] TwoDArray = new int[rows][columns];     
        
         // Taking input for the 2D array  
-        for (int i = 0; i < rows; i++) {
+        for (int i = 0; i < rows; i++) { 
             for (int j = 0; j < columns; j++) {
                 System.out.print("Enter number [" + i + "," + j + "]: ");
                 TwoDArray[i][j] = input.nextInt(); // Store user input in 2D array
