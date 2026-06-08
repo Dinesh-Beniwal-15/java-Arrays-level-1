@@ -17,7 +17,7 @@ class ArrayOperations{
 				} 
 				else{ 
 					System.out.println("Number "+num+" is odd");
-				}
+				} 
 			}
 			else if(num<0){
 				System.out.println("Number "+num+" is negative");
